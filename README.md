@@ -6,9 +6,13 @@
 ![Backend](https://img.shields.io/static/v1?label=Backend&message=PHP,%20SQL&color=red)
 ![CONTRIBUTE](https://img.shields.io/static/v1?label=Contribute&message=Using%20Smartlist%20Contributors&color=blue)
 [![Gitter](https://badges.gitter.im/Smartlist-chat/community.svg)](https://gitter.im/Smartlist-chat/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Build Status](https://img.shields.io/github/forks/ManuTheCoder/Smartlist-desktop.svg)](https://github.com/ManuTheCoder/Smartlist-desktop)
+<!--[![Build Status](https://img.shields.io/github/forks/ManuTheCoder/Smartlist-desktop.svg)](https://github.com/ManuTheCoder/Smartlist-desktop)
 [![Build Status](https://img.shields.io/github/stars/ManuTheCoder/Smartlist-desktop.svg)](https://github.com/ManuTheCoder/Smartlist-desktop)
-[![License](https://img.shields.io/github/license/ManuTheCoder/Smartlist-desktop.svg)](https://github.com/ManuTheCoder/Smartlist-desktop)
+[![License](https://img.shields.io/github/license/ManuTheCoder/Smartlist-desktop.svg)](https://github.com/ManuTheCoder/Smartlist-desktop)-->
+
+[![Build Status](https://img.shields.io/github/forks/ManuTheCoder/Smartlist-desktop.svg?style=for-the-badge)](https://github.com/ManuTheCoder/Smartlist-desktop)
+[![Build Status](https://img.shields.io/github/stars/ManuTheCoder/Smartlist-desktop.svg?style=for-the-badge)](https://github.com/ManuTheCoder/Smartlist-desktop)
+[![License](https://img.shields.io/github/license/ManuTheCoder/Smartlist-desktop.svg?style=for-the-badge)](https://github.com/ManuTheCoder/Smartlist-desktop)
 ---
 Meet Smartlist.
 Smartlist is a home inventory app which lets you keep track of what you have, wherever you are - for free!
