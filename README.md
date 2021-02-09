@@ -8,7 +8,7 @@
 [![Build Status](https://img.shields.io/github/forks/ManuTheCoder/Smartlist-desktop.svg?style=for-the-badge)](https://github.com/ManuTheCoder/Smartlist-desktop)
 [![Build Status](https://img.shields.io/github/stars/ManuTheCoder/Smartlist-desktop.svg?style=for-the-badge)](https://github.com/ManuTheCoder/Smartlist-desktop)
 [![License](https://img.shields.io/github/license/ManuTheCoder/Smartlist-desktop.svg?style=for-the-badge)](https://github.com/ManuTheCoder/Smartlist-desktop)
-[![Gitter](https://img.shields.io/badge/Chat-On%20Gitter-%3CCOLOR%3E?style=for-the-badge)](https://gitter.im/Smartlist-chat/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter](https://img.shields.io/badge/Chat-On%20Gitter-teal?style=for-the-badge)](https://gitter.im/Smartlist-chat/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 <!--[![Build Status](https://img.shields.io/github/forks/ManuTheCoder/Smartlist-desktop.svg)](https://github.com/ManuTheCoder/Smartlist-desktop)
 [![Build Status](https://img.shields.io/github/stars/ManuTheCoder/Smartlist-desktop.svg)](https://github.com/ManuTheCoder/Smartlist-desktop)
 [![License](https://img.shields.io/github/license/ManuTheCoder/Smartlist-desktop.svg)](https://github.com/ManuTheCoder/Smartlist-desktop)-->
