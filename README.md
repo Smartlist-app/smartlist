@@ -4,6 +4,7 @@
 ![CB](https://img.shields.io/badge/Contributors-20-yellow)
 ![Frontend](https://img.shields.io/static/v1?label=Frontend&message=HTML,%20CSS,%20JS&color=%3CCOLOR%3E)
 ![Backend](https://img.shields.io/static/v1?label=Backend&message=PHP,%20SQL&color=red)
+![CONTRIBUTE](https://img.shields.io/static/v1?label=Contribute&message=Using%20Smartlist%20Contributors&color=blue)
 [![Gitter](https://badges.gitter.im/Smartlist-chat/community.svg)](https://gitter.im/Smartlist-chat/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ---
 Meet Smartlist.
