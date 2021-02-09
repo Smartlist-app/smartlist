@@ -1,6 +1,10 @@
 # Smartlist (Desktop)
 ## A PHP and SQL project by ManuTheCoder
 ### This Repository is part of a larger project at: https://smartlist.ga
+<img src="https://img.shields.io/badge/Contributors-20-yellow" style="display:inline-block">
+<img src="https://img.shields.io/static/v1?label=Frontend&message=HTML,%20CSS,%20JS&color=%3CCOLOR%3E" style="display:inline-block">
+<img src="https://img.shields.io/static/v1?label=Backend&message=PHP,%20SQL&color=red" style="display:inline-block">
+
 ---
 Meet Smartlist.
 Smartlist is a home inventory app which lets you keep track of what you have, wherever you are - for free!
