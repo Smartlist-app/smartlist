@@ -95,22 +95,22 @@ Ways you can help: </p>
 <ol>
 <li>Create an account at: <a href="https://smartlist.ga/contribute/">https://smartlist.ga/contribute/</a> or log in with your smartlist account</li>
 <li>Create an API key</li>
-<li>Insert this code into your application: <pre><code><span class="hljs-variable">&amp;lt</span>;link href=<span class="hljs-variable">&amp;quot</span>;https:<span class="hljs-comment">//fonts.googleapis.com/css2?family=Poppins&amp;amp;display=swap&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;</span>
-<span class="hljs-variable">&amp;lt</span>;form method=<span class="hljs-variable">&amp;quot</span>;POST<span class="hljs-variable">&amp;quot</span>;<span class="hljs-variable">&amp;gt</span>;
- <span class="hljs-variable">&amp;lt</span>;?php if(!isset($_GET[&amp;<span class="hljs-meta">#39;success&amp;#39;])){?&amp;gt;</span>
- <span class="hljs-variable">&amp;lt</span>;img src=<span class="hljs-variable">&amp;quot</span>;https:<span class="hljs-comment">//img.flaticon.com/icons/png/512/295/295128.png?size=1200x630f&amp;amp;pad=10,10,10,10&amp;amp;ext=png&amp;amp;bg=FFFFFFFF&amp;quot; width=&amp;quot;50%&amp;quot; style=&amp;quot;display:block;margin: auto&amp;quot;&amp;gt;</span>
- <span class="hljs-variable">&amp;lt</span>;h2<span class="hljs-variable">&amp;gt</span>;Simple login form using Smartlist API<span class="hljs-variable">&amp;lt</span>;/h2<span class="hljs-variable">&amp;gt</span>;
- <span class="hljs-variable">&amp;lt</span>;p<span class="hljs-variable">&amp;gt</span>;Here, we show you how an example of using the Smartlist API. Image by flaticon<span class="hljs-variable">&amp;lt</span>;/p<span class="hljs-variable">&amp;gt</span>;
- <span class="hljs-variable">&amp;lt</span>;input type=<span class="hljs-variable">&amp;quot</span>;text<span class="hljs-variable">&amp;quot</span>; placeholder=<span class="hljs-variable">&amp;quot</span>;Username<span class="hljs-variable">&amp;quot</span>;<span class="hljs-variable">&amp;gt</span>;
- <span class="hljs-variable">&amp;lt</span>;input type=<span class="hljs-variable">&amp;quot</span>;text<span class="hljs-variable">&amp;quot</span>; placeholder=<span class="hljs-variable">&amp;quot</span>;Password<span class="hljs-variable">&amp;quot</span>;<span class="hljs-variable">&amp;gt</span>;
- <span class="hljs-variable">&amp;lt</span>;button type=<span class="hljs-variable">&amp;quot</span>;submit<span class="hljs-variable">&amp;quot</span>; disabled<span class="hljs-variable">&amp;gt</span>;Log in<span class="hljs-variable">&amp;lt</span>;/button<span class="hljs-variable">&amp;gt</span>;
- <span class="hljs-variable">&amp;lt</span>;a href=<span class="hljs-variable">&amp;quot</span>;https:<span class="hljs-comment">//smartlist.ga/auth?key=YOUR_API_KEY_GOES_HERE_IN_THIS_SPOT_LOOK_HERE&amp;quot;&amp;gt;Log in with Smartlist&amp;lt;/button&amp;gt;</span>
- <span class="hljs-variable">&amp;lt</span>;?php } <span class="hljs-class">else </span>{?<span class="hljs-variable">&amp;gt</span>;
-     <span class="hljs-variable">&amp;lt</span>;div style=<span class="hljs-variable">&amp;quot</span>;background: <span class="hljs-meta">#34eb64;color:white;padding: 10px;border-radius: 5px&amp;quot;&amp;gt;Successfully Signed In!&amp;lt;br&amp;gt;</span>
-     Data Collected: <span class="hljs-variable">&amp;lt</span>;br<span class="hljs-variable">&amp;gt</span>;
-<span class="hljs-symbol">     Username:</span> <span class="hljs-variable">&amp;lt</span>;?php echo $_GET[&amp;<span class="hljs-meta">#39;username&amp;#39;];?&amp;gt;&amp;lt;/div&amp;gt;</span>
- <span class="hljs-variable">&amp;lt</span>;?php }?<span class="hljs-variable">&amp;gt</span>;
-<span class="hljs-variable">&amp;lt</span>;/form<span class="hljs-variable">&amp;gt</span>;
+<li>Insert this code into your application: <pre><code>&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;form method=&quot;POST&quot;&gt;
+ &lt;?php if(!isset($_GET[&#39;success&#39;])){?&gt;
+ &lt;img src=&quot;https://img.flaticon.com/icons/png/512/295/295128.png?size=1200x630f&amp;pad=10,10,10,10&amp;ext=png&amp;bg=FFFFFFFF&quot; width=&quot;50%&quot; style=&quot;display:block;margin: auto&quot;&gt;
+ &lt;h2&gt;Simple login form using Smartlist API&lt;/h2&gt;
+ &lt;p&gt;Here, we show you how an example of using the Smartlist API. Image by flaticon&lt;/p&gt;
+ &lt;input type=&quot;text&quot; placeholder=&quot;Username&quot;&gt;
+ &lt;input type=&quot;text&quot; placeholder=&quot;Password&quot;&gt;
+ &lt;button type=&quot;submit&quot; disabled&gt;Log in&lt;/button&gt;
+ &lt;a href=&quot;https://smartlist.ga/auth?key=YOUR_API_KEY_GOES_HERE_IN_THIS_SPOT_LOOK_HERE&quot;&gt;Log in with Smartlist&lt;/button&gt;
+ &lt;?php } else {?&gt;
+     &lt;div style=&quot;background: #34eb64;color:white;padding: 10px;border-radius: 5px&quot;&gt;Successfully Signed In!&lt;br&gt;
+     Data Collected: &lt;br&gt;
+     Username: &lt;?php echo $_GET[&#39;username&#39;];?&gt;&lt;/div&gt;
+ &lt;?php }?&gt;
+&lt;/form&gt;
 </code></pre></li>
 </ol>
 <hr>
