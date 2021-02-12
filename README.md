@@ -57,22 +57,22 @@ The data is recieved via a GET request, and only the username will be provided f
 2. Create an API key
 3. Insert this code into your application: 
 ```
-&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
-&lt;form method=&quot;POST&quot;&gt;
-    &lt;?php if(!isset($_GET[&#39;success&#39;])){?&gt;
-    &lt;img src=&quot;https://img.flaticon.com/icons/png/512/295/295128.png?size=1200x630f&amp;pad=10,10,10,10&amp;ext=png&amp;bg=FFFFFFFF&quot; width=&quot;50%&quot; style=&quot;display:block;margin: auto&quot;&gt;
-    &lt;h2&gt;Simple login form using Smartlist API&lt;/h2&gt;
-    &lt;p&gt;Here, we show you how an example of using the Smartlist API. Image by flaticon&lt;/p&gt;
-    &lt;input type=&quot;text&quot; placeholder=&quot;Username&quot;&gt;
-    &lt;input type=&quot;text&quot; placeholder=&quot;Password&quot;&gt;
-    &lt;button type=&quot;submit&quot; disabled&gt;Log in&lt;/button&gt;
-    &lt;a href=&quot;https://smartlist.ga/auth?key=YOUR_API_KEY_GOES_HERE_IN_THIS_SPOT_LOOK_HERE&quot;&gt;Log in with Smartlist&lt;/button&gt;
-    &lt;?php } else {?&gt;
-        &lt;div style=&quot;background: #34eb64;color:white;padding: 10px;border-radius: 5px&quot;&gt;Successfully Signed In!&lt;br&gt;
-        Data Collected: &lt;br&gt;
-        Username: &lt;?php echo $_GET[&#39;username&#39;];?&gt;&lt;/div&gt;
-    &lt;?php }?&gt;
-&lt;/form&gt;
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<form method="POST">
+    <?php if(!isset($_GET['success'])){?>
+    <img src="https://img.flaticon.com/icons/png/512/295/295128.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" width="50%" style="display:block;margin: auto">
+    <h2>Simple login form using Smartlist API</h2>
+    <p>Here, we show you how an example of using the Smartlist API. Image by flaticon</p>
+    <input type="text" placeholder="Username">
+    <input type="text" placeholder="Password">
+    <button type="submit" disabled>Log in</button>
+    <a href="https://smartlist.ga/auth?key=YOUR_API_KEY_GOES_HERE_IN_THIS_SPOT_LOOK_HERE">Log in with Smartlist</button>
+    <?php } else {?>
+        <div style="background: #34eb64;color:white;padding: 10px;border-radius: 5px">Successfully Signed In!<br>
+        Data Collected: <br>
+        Username: <?php echo $_GET['username'];?></div>
+    <?php }?>
+</form>
 
 ```
 
