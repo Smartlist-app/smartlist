@@ -55,6 +55,9 @@ No one here yet! Why not try sponsoring?
 
 ## How to use the API
 The data is recieved via a GET request, and only the username will be provided for security reasons. Use this API respectfully!
+1. Create an account at: https://smartlist.ga/contribute/ or log in with your smartlist account
+2. Create an API key
+3. Insert this code into your application: 
 ```
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 <form method="POST">
