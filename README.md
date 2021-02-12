@@ -41,17 +41,15 @@ Ways you can help:
 ### Credits 
 The development process of this project is going really well thanks to these people! Without them, the very exsistence of this project wouldn't be there!
 
-### Diamond Sponsors
-* Pramodini Ravi Shankar - Gave the very idea of this project
-* Materialize CSS - Basic framework of this project
-* jQuery and jQuery team - Very important
-* Infinitzhost - Free website hosting with cPanel!
-### Gold Sponsors
-* Applicationize.me - Very useful in the desktop app 
-* Appetize.io - Good for native apps
-* MDN, Google developers, and W3schools for dev tutorials!
-### Others
-No one here yet! Why not try sponsoring?
+| Diamond Sponsors      | Gold Sponsors           | Others                               |
+|-----------------------|-------------------------|--------------------------------------|
+| Manusvath Gurudath    | jQuery                  | No one here yet!                     |
+| Pramodini Ravishankar | Materialize CSS & team! | @Pictagar from InfintyFree forums    |
+| Achinthya Kashyap     | Codepen                 | @Lovebug from Infinityfree forums    |
+| Sriram Vijayendra     | Drag Select JS          | @FatGrizzly from Infinityfree forums |
+| Img BB                | postale.io              | @BayoDino from Infinityfree forums   |
+| InfinityFree          |                         | @Admin from Infinityfree forums      |
+| Infinitzhost          |                         | @OxyDac from Infinityfree forums     |
 
 ## How to use the API
 The data is recieved via a GET request, and only the username will be provided for security reasons. Use this API respectfully!
