@@ -53,6 +53,27 @@ The development process of this project is going really well thanks to these peo
 ### Others
 No one here yet! Why not try sponsoring?
 
+## How to use the API
+The data is recieved via a GET request, and only the username will be provided for security reasons. Use this API respectfully!
+```
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<form method="POST">
+    <?php if(!isset($_GET['success'])){?>
+    <img src="https://img.flaticon.com/icons/png/512/295/295128.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" width="50%" style="display:block;margin: auto">
+    <h2>Simple login form using Smartlist API</h2>
+    <p>Here, we show you how an example of using the Smartlist API. Image by flaticon</p>
+    <input type="text" placeholder="Username">
+    <input type="text" placeholder="Password">
+    <button type="submit" disabled>Log in</button>
+    <a href="https://smartlist.ga/auth?key=YOUR_API_KEY_GOES_HERE_IN_THIS_SPOT_LOOK_HERE">Log in with Smartlist</button>
+    <?php } else {?>
+        <div style="background: #34eb64;color:white;padding: 10px;border-radius: 5px">Successfully Signed In!<br>
+        Data Collected: <br>
+        Username: <?php echo $_GET['username'];?></div>
+    <?php }?>
+</form>
+```
+
 ---
 ### License
 
