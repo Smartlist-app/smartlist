@@ -50,6 +50,13 @@ The development process of this project is going really well thanks to these peo
 | Img BB                | postale.io              | @BayoDino from Infinityfree forums   |
 | InfinityFree          |                         | @Admin from Infinityfree forums      |
 | Infinitzhost          |                         | @OxyDac from Infinityfree forums     |
+#### How do I become a sponsor? 
+1. Go to https://smartlist.ga/contribute/ 
+2. Log in with your smartlist account
+3. Click on the "Award" icon - Here you can see how many minutes you have voluntered and how many others have!
+4. If you want to add yourself to the sponsor list, go to the info icon in the sidebar, and click "add myself to credits"
+5. Please be truthful, and only add yourself if you have done something. **Spamming is strictly forbidden** 
+6. You can join our slack here: https://join.slack.com/t/smartlist-dev-app/shared_invite/zt-mqmeozg0-DvV2FG0lCRsTZgGcvpcvpA
 
 ## How to use the API
 The data is recieved via a GET request, and only the username will be provided for security reasons. Use this API respectfully!
