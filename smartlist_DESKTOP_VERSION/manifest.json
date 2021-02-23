@@ -1,1 +1,0 @@
-{"manifest_version":2,"name":"Smartlist Desktop","description":"The sophisticated home inventory app","version":"3.0","icons":{"128":"img/icon.png"},"app":{"background":{"scripts":["js/background.js"],"pages":["html/embed.html"]}},"permissions":["webview","fullscreen","notifications","audioCapture","videoCapture"]}
