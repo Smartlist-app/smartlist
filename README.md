@@ -50,6 +50,7 @@ The development process of this project is going really well thanks to these peo
 | Img BB                | postale.io              | @BayoDino from Infinityfree forums   |
 | InfinityFree          |                         | @Admin from Infinityfree forums      |
 | Infinitzhost          |                         | @OxyDac from Infinityfree forums     |
+| Freenom               |                         |                                      |
 #### How do I become a sponsor? 
 1. Go to https://smartlist.ga/contribute/ 
 2. Log in with your smartlist account
