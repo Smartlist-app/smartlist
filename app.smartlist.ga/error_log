@@ -1,5 +1,0 @@
-[04-Feb-2021 01:03:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bcxkspna/app.smartlist.ga/view.php:2) in /home/bcxkspna/app.smartlist.ga/view.php on line 9
-[04-Feb-2021 01:03:34 UTC] PHP Warning:  include_once(connection.php): failed to open stream: No such file or directory in /home/bcxkspna/app.smartlist.ga/view.php on line 13
-[04-Feb-2021 01:03:34 UTC] PHP Warning:  include_once(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/bcxkspna/app.smartlist.ga/view.php on line 13
-[04-Feb-2021 01:03:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bcxkspna/app.smartlist.ga/view.php on line 16
-[04-Feb-2021 01:03:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bcxkspna/app.smartlist.ga/view.php on line 383
